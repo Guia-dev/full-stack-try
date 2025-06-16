@@ -1,7 +1,7 @@
 import {useEffect, useState } from 'react'
 import './index.css'; // ✅ MUST be first
 //http://127.0.0.1:5500/client/public/server/
-const API_URL = 'api/users';
+const API_URL = 'https://my-back-end-guia.onrender.com/api/users';
 
 function App() {
   const [user, setUser] = useState([]);
